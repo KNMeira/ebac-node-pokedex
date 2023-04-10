@@ -19,4 +19,5 @@ router.post('/captura/:id', (req, res) => {
         }
     }).catch(_ => res.status(404).json({ erro: "Pokemon não encontrado" }));
 });
+
 module.exports = router;
